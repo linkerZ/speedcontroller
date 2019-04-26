@@ -1,3 +1,12 @@
-#ifdef SPEED_CONTROLLER_GUARD
+#ifndef SPEED_CONTROLLER_GUARD
+#define SPEED_CONTROLLER_GUARD
+
+class SpeedController{
+    public:
+    SpeedController(){
+
+    }
+    ~SpeedController() = default;
+};
 
 #endif
